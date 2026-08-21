@@ -52,13 +52,16 @@ header.site-header {
 }
 
 .logo {
-  font-size: 22px;
-  font-weight: 800;
-  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo-image {
+  display: block;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
 }
 
 nav.site-nav a {
